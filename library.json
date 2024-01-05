@@ -1,0 +1,21 @@
+{
+    "name": "hytech_libs",
+    "version": "0.0.1",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/RCMast3r/firmware_libraries.git"
+    },
+    "export": {
+      "include": [
+        "*.c",
+        "*.cpp",
+        "*.h",
+        "ADC_SPI",
+        "HyTech_CAN",
+        "LTC6811_2",
+        "VehicleUtilities"
+      ]
+    },
+    "frameworks": "*",
+    "platforms": "*"
+  }
